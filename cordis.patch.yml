@@ -1,0 +1,6 @@
+- insert:
+    - id: bili-upload-kit
+      name: 'dsh-bili-upload-kit'
+      config:
+        enabled: true
+        tool: true

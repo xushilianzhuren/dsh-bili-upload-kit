@@ -1,0 +1,36 @@
+{
+  "name": "dsh-bili-upload-kit",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "B站投稿工具箱：持久档案登录+浏览器自动化投稿SOP·含创作声明处理 Bilibili upload kit: persistent-profile login + browser-automation SOP with declaration handling.",
+  "license": "MIT",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "video",
+    "bilibili"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@antinomyhq/forge": "*"
+  }
+}
